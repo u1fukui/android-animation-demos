@@ -1,19 +1,25 @@
 package com.u1fukui.androidanimationdemos;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class MainActivity extends ListActivity {
+public class MainActivity extends ActionBarActivity
+        implements AdapterView.OnItemClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setListAdapter(createListAdapter());
+        setContentView(R.layout.activity_list);
+
+        ListView listView = (ListView) findViewById(R.id.list);
+        listView.setAdapter(createListAdapter());
+        listView.setOnItemClickListener(this);
     }
 
     private DemoItemListAdapter createListAdapter() {
@@ -23,14 +29,11 @@ public class MainActivity extends ListActivity {
     }
 
     @Override
-    protected void onListItemClick(ListView l, View v, int position, long id) {
-        super.onListItemClick(l, v, position, id);
-
-        DemoItem item = (DemoItem) l.getItemAtPosition(position);
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        DemoItem item = (DemoItem) parent.getItemAtPosition(position);
         if (item != null) {
             Intent intent = new Intent(this, item.getActivityClass());
             startActivity(intent);
         }
     }
-
 }
