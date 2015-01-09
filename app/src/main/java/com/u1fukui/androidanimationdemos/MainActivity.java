@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationsamples;
+package com.u1fukui.androidanimationdemos;
 
 import android.app.ListActivity;
 import android.content.Intent;

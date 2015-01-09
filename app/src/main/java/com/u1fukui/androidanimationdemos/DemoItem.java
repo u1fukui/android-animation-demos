@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationsamples;
+package com.u1fukui.androidanimationdemos;
 
 public class DemoItem {
 

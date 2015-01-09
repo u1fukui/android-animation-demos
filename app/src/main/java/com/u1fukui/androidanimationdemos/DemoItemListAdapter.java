@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationsamples;
+package com.u1fukui.androidanimationdemos;
 
 import android.content.Context;
 import android.view.LayoutInflater;
