@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="viewanim_rotate_pivot_type">
+        <item>ABSOLUTE</item>
+        <item>RELATIVE_TO_SELF</item>
+        <item>RELATIVE_TO_PARENT</item>
+    </string-array>
+</resources>

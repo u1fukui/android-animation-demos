@@ -17,6 +17,7 @@
         </activity>
 
         <activity android:name=".viewanim.AllViewAnimationActivity" />
+        <activity android:name=".viewanim.RotateAnimationActivity" />
 
     </application>
 
