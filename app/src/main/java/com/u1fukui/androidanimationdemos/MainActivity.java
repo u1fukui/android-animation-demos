@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.u1fukui.androidanimationdemos.propertyanim.ValueAnimatorActivity;
 import com.u1fukui.androidanimationdemos.viewanim.AllViewAnimationActivity;
 import com.u1fukui.androidanimationdemos.viewanim.RotateAnimationActivity;
 
@@ -29,6 +30,7 @@ public class MainActivity extends ActionBarActivity
         ArrayList<DemoItem> itemList = new ArrayList<DemoItem>();
         itemList.add(new DemoItem(AllViewAnimationActivity.class, "Name"));
         itemList.add(new DemoItem(RotateAnimationActivity.class, "RotateAnimation"));
+        itemList.add(new DemoItem(ValueAnimatorActivity.class, "ValueAnimator"));
         return new DemoItemListAdapter(this, itemList);
     }
 
