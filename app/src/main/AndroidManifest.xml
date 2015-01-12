@@ -19,7 +19,7 @@
         <activity android:name=".viewanim.AllViewAnimationActivity" />
         <activity android:name=".viewanim.RotateAnimationActivity" />
         <activity android:name=".propertyanim.ValueAnimatorActivity" />
-
+        <activity android:name=".propertyanim.LayoutTransitionActivity" />
     </application>
 
 </manifest>
