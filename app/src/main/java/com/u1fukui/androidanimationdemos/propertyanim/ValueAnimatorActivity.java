@@ -1,5 +1,6 @@
 package com.u1fukui.androidanimationdemos.propertyanim;
 
+import android.animation.AnimatorInflater;
 import android.animation.ValueAnimator;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -24,13 +25,25 @@ public class ValueAnimatorActivity extends ActionBarActivity {
     }
 
     @OnClick(R.id.valueanim_button)
-    public void execute() {
+    public void startProgrammaticAnimator() {
+        ValueAnimator anim = ValueAnimator.ofFloat(0f, 10f);
+        anim.setDuration(500);
+        anim.addUpdateListener(createListener());
+        anim.start();
+    }
+
+    @OnClick(R.id.valueanim_button2)
+    public void startXmlAnimator() {
+        ValueAnimator anim = (ValueAnimator) AnimatorInflater.loadAnimator(this, R.animator.animator_sample);
+        anim.addUpdateListener(createListener());
+        anim.start();
+    }
+
+    private ValueAnimator.AnimatorUpdateListener createListener() {
         final StringBuilder sb = new StringBuilder();
         sb.append("Time\t\tFraction\t\tValue\n");
 
-        ValueAnimator anim = ValueAnimator.ofFloat(0f, 10f);
-        anim.setDuration(500);
-        anim.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+        return new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 // 経過時間
@@ -47,8 +60,6 @@ public class ValueAnimatorActivity extends ActionBarActivity {
                         time, fraction, value));
                 mStateView.setText(sb.toString());
             }
-        });
-
-        anim.start();
+        };
     }
 }

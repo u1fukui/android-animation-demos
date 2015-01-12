@@ -8,13 +8,30 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/valueanim_button"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_margin="20dp"
-            android:text="Execute" />
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/valueanim_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="right"
+                android:layout_margin="20dp"
+                android:text="実行\n(Program)" />
+
+            <Button
+                android:id="@+id/valueanim_button2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="right"
+                android:layout_margin="20dp"
+                android:text="実行(XML)" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/valueanim_state"
