@@ -5,6 +5,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.u1fukui.androidanimationdemos.R;
@@ -37,5 +39,10 @@ public class AllViewAnimationActivity extends ActionBarActivity {
         AlphaAnimation animation = new AlphaAnimation(fromAlpha, toAlpha);
         animation.setDuration(3000);
         view.startAnimation(animation);
+    }
+
+    private void startAlphaAnimationXml(View view) {
+        Animation anim = AnimationUtils.loadAnimation(this, R.anim.fade_out);
+        view.startAnimation(anim);
     }
 }
