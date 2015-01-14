@@ -10,6 +10,7 @@ import android.widget.ListView;
 import com.u1fukui.androidanimationdemos.DemoItem;
 import com.u1fukui.androidanimationdemos.DemoItemListAdapter;
 import com.u1fukui.androidanimationdemos.R;
+import com.u1fukui.androidanimationdemos.activity.propertyanim.InterpolatorActivity;
 import com.u1fukui.androidanimationdemos.activity.propertyanim.LayoutTransitionActivity;
 import com.u1fukui.androidanimationdemos.activity.propertyanim.ObjectAnimatorActivity;
 import com.u1fukui.androidanimationdemos.activity.propertyanim.ValueAnimatorActivity;
@@ -41,6 +42,7 @@ public class MainActivity extends ActionBarActivity
         itemList.add(new DemoItem(TransitionAnimationFirstActivity.class, "Transition"));
         itemList.add(new DemoItem(ValueAnimatorActivity.class, "ValueAnimator"));
         itemList.add(new DemoItem(ObjectAnimatorActivity.class, "ObjectAnimator"));
+        itemList.add(new DemoItem(InterpolatorActivity.class, "Interpolator"));
         itemList.add(new DemoItem(LayoutTransitionActivity.class, "LayoutTransition"));
         return new DemoItemListAdapter(this, itemList);
     }

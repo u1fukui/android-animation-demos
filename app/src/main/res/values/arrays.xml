@@ -5,4 +5,16 @@
         <item>RELATIVE_TO_SELF</item>
         <item>RELATIVE_TO_PARENT</item>
     </string-array>
+
+    <string-array name="interpolator_type">
+        <item>LinearInterpolator</item>
+        <item>AccelerateDecelerateInterpolator</item>
+        <item>AccelerateInterpolator</item>
+        <item>DecelerateInterpolator</item>
+        <item>AnticipateInterpolator</item>
+        <item>AnticipateOvershootInterpolator</item>
+        <item>BounceInterpolator</item>
+        <item>CycleInterpolator</item>
+        <item>OvershootInterpolator</item>
+    </string-array>
 </resources>

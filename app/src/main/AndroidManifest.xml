@@ -23,6 +23,7 @@
         <activity android:name=".activity.viewanim.TransitionAnimationSecondActivity" />
         <activity android:name=".activity.propertyanim.ValueAnimatorActivity" />
         <activity android:name=".activity.propertyanim.ObjectAnimatorActivity" />
+        <activity android:name=".activity.propertyanim.InterpolatorActivity" />
         <activity android:name=".activity.propertyanim.LayoutTransitionActivity" />
     </application>
 
