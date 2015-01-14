@@ -16,6 +16,7 @@ import com.u1fukui.androidanimationdemos.activity.propertyanim.ValueAnimatorActi
 import com.u1fukui.androidanimationdemos.activity.viewanim.AllViewAnimationActivity;
 import com.u1fukui.androidanimationdemos.activity.viewanim.AnimationSetActivity;
 import com.u1fukui.androidanimationdemos.activity.viewanim.RotateAnimationActivity;
+import com.u1fukui.androidanimationdemos.activity.viewanim.TransitionAnimationFirstActivity;
 
 import java.util.ArrayList;
 
@@ -37,6 +38,7 @@ public class MainActivity extends ActionBarActivity
         itemList.add(new DemoItem(AllViewAnimationActivity.class, "AlphaAnimation"));
         itemList.add(new DemoItem(RotateAnimationActivity.class, "RotateAnimation"));
         itemList.add(new DemoItem(AnimationSetActivity.class, "AnimationSet"));
+        itemList.add(new DemoItem(TransitionAnimationFirstActivity.class, "Transition"));
         itemList.add(new DemoItem(ValueAnimatorActivity.class, "ValueAnimator"));
         itemList.add(new DemoItem(ObjectAnimatorActivity.class, "ObjectAnimator"));
         itemList.add(new DemoItem(LayoutTransitionActivity.class, "LayoutTransition"));

@@ -19,6 +19,8 @@
         <activity android:name=".activity.viewanim.AllViewAnimationActivity" />
         <activity android:name=".activity.viewanim.RotateAnimationActivity" />
         <activity android:name=".activity.viewanim.AnimationSetActivity" />
+        <activity android:name=".activity.viewanim.TransitionAnimationFirstActivity" />
+        <activity android:name=".activity.viewanim.TransitionAnimationSecondActivity" />
         <activity android:name=".activity.propertyanim.ValueAnimatorActivity" />
         <activity android:name=".activity.propertyanim.ObjectAnimatorActivity" />
         <activity android:name=".activity.propertyanim.LayoutTransitionActivity" />
