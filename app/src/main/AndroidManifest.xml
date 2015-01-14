@@ -8,7 +8,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:label="Animation Demos">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,12 +16,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".viewanim.AllViewAnimationActivity" />
-        <activity android:name=".viewanim.RotateAnimationActivity" />
-        <activity android:name=".viewanim.AnimationSetActivity" />
-        <activity android:name=".propertyanim.ValueAnimatorActivity" />
-        <activity android:name=".propertyanim.ObjectAnimatorActivity" />
-        <activity android:name=".propertyanim.LayoutTransitionActivity" />
+        <activity android:name=".activity.viewanim.AllViewAnimationActivity" />
+        <activity android:name=".activity.viewanim.RotateAnimationActivity" />
+        <activity android:name=".activity.viewanim.AnimationSetActivity" />
+        <activity android:name=".activity.propertyanim.ValueAnimatorActivity" />
+        <activity android:name=".activity.propertyanim.ObjectAnimatorActivity" />
+        <activity android:name=".activity.propertyanim.LayoutTransitionActivity" />
     </application>
 
 </manifest>

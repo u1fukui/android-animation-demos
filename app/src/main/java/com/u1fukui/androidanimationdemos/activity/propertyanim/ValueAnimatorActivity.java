@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationdemos.propertyanim;
+package com.u1fukui.androidanimationdemos.activity.propertyanim;
 
 import android.animation.AnimatorInflater;
 import android.animation.ValueAnimator;

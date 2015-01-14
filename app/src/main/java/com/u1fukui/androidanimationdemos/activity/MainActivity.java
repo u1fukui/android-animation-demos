@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationdemos;
+package com.u1fukui.androidanimationdemos.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,12 +7,15 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.u1fukui.androidanimationdemos.propertyanim.LayoutTransitionActivity;
-import com.u1fukui.androidanimationdemos.propertyanim.ObjectAnimatorActivity;
-import com.u1fukui.androidanimationdemos.propertyanim.ValueAnimatorActivity;
-import com.u1fukui.androidanimationdemos.viewanim.AllViewAnimationActivity;
-import com.u1fukui.androidanimationdemos.viewanim.AnimationSetActivity;
-import com.u1fukui.androidanimationdemos.viewanim.RotateAnimationActivity;
+import com.u1fukui.androidanimationdemos.DemoItem;
+import com.u1fukui.androidanimationdemos.DemoItemListAdapter;
+import com.u1fukui.androidanimationdemos.R;
+import com.u1fukui.androidanimationdemos.activity.propertyanim.LayoutTransitionActivity;
+import com.u1fukui.androidanimationdemos.activity.propertyanim.ObjectAnimatorActivity;
+import com.u1fukui.androidanimationdemos.activity.propertyanim.ValueAnimatorActivity;
+import com.u1fukui.androidanimationdemos.activity.viewanim.AllViewAnimationActivity;
+import com.u1fukui.androidanimationdemos.activity.viewanim.AnimationSetActivity;
+import com.u1fukui.androidanimationdemos.activity.viewanim.RotateAnimationActivity;
 
 import java.util.ArrayList;
 
