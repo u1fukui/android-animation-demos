@@ -14,6 +14,7 @@ import com.u1fukui.androidanimationdemos.activity.propertyanim.InterpolatorActiv
 import com.u1fukui.androidanimationdemos.activity.propertyanim.LayoutTransitionActivity;
 import com.u1fukui.androidanimationdemos.activity.propertyanim.ObjectAnimatorActivity;
 import com.u1fukui.androidanimationdemos.activity.propertyanim.ValueAnimatorActivity;
+import com.u1fukui.androidanimationdemos.activity.propertyanim.ViewPropertyAnimatorActivity;
 import com.u1fukui.androidanimationdemos.activity.viewanim.AllViewAnimationActivity;
 import com.u1fukui.androidanimationdemos.activity.viewanim.AnimationSetActivity;
 import com.u1fukui.androidanimationdemos.activity.viewanim.RotateAnimationActivity;
@@ -43,6 +44,7 @@ public class MainActivity extends ActionBarActivity
         itemList.add(new DemoItem(ValueAnimatorActivity.class, "ValueAnimator"));
         itemList.add(new DemoItem(ObjectAnimatorActivity.class, "ObjectAnimator"));
         itemList.add(new DemoItem(InterpolatorActivity.class, "Interpolator"));
+        itemList.add(new DemoItem(ViewPropertyAnimatorActivity.class, "ViewPropertyAnimator"));
         itemList.add(new DemoItem(LayoutTransitionActivity.class, "LayoutTransition"));
         return new DemoItemListAdapter(this, itemList);
     }

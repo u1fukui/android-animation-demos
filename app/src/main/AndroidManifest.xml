@@ -24,6 +24,7 @@
         <activity android:name=".activity.propertyanim.ValueAnimatorActivity" />
         <activity android:name=".activity.propertyanim.ObjectAnimatorActivity" />
         <activity android:name=".activity.propertyanim.InterpolatorActivity" />
+        <activity android:name=".activity.propertyanim.ViewPropertyAnimatorActivity" />
         <activity android:name=".activity.propertyanim.LayoutTransitionActivity" />
     </application>
 
