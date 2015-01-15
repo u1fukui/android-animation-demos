@@ -21,6 +21,7 @@
         <activity android:name=".activity.viewanim.AnimationSetActivity" />
         <activity android:name=".activity.viewanim.TransitionAnimationFirstActivity" />
         <activity android:name=".activity.viewanim.TransitionAnimationSecondActivity" />
+        <activity android:name=".activity.viewanim.TranslateAnimationActivity" />
         <activity android:name=".activity.propertyanim.ValueAnimatorActivity" />
         <activity android:name=".activity.propertyanim.ObjectAnimatorActivity" />
         <activity android:name=".activity.propertyanim.InterpolatorActivity" />

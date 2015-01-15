@@ -19,6 +19,7 @@ import com.u1fukui.androidanimationdemos.activity.viewanim.AllViewAnimationActiv
 import com.u1fukui.androidanimationdemos.activity.viewanim.AnimationSetActivity;
 import com.u1fukui.androidanimationdemos.activity.viewanim.RotateAnimationActivity;
 import com.u1fukui.androidanimationdemos.activity.viewanim.TransitionAnimationFirstActivity;
+import com.u1fukui.androidanimationdemos.activity.viewanim.TranslateAnimationActivity;
 
 import java.util.ArrayList;
 
@@ -41,6 +42,7 @@ public class MainActivity extends ActionBarActivity
         itemList.add(new DemoItem(RotateAnimationActivity.class, "RotateAnimation"));
         itemList.add(new DemoItem(AnimationSetActivity.class, "AnimationSet"));
         itemList.add(new DemoItem(TransitionAnimationFirstActivity.class, "Transition"));
+        itemList.add(new DemoItem(TranslateAnimationActivity.class, "TranslateAnimation"));
         itemList.add(new DemoItem(ValueAnimatorActivity.class, "ValueAnimator"));
         itemList.add(new DemoItem(ObjectAnimatorActivity.class, "ObjectAnimator"));
         itemList.add(new DemoItem(InterpolatorActivity.class, "Interpolator"));
