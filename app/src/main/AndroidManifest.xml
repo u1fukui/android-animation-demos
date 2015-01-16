@@ -27,6 +27,7 @@
         <activity android:name=".activity.propertyanim.InterpolatorActivity" />
         <activity android:name=".activity.propertyanim.ViewPropertyAnimatorActivity" />
         <activity android:name=".activity.propertyanim.LayoutTransitionActivity" />
+        <activity android:name=".activity.transition.FragmentTransitionActivity" />
     </application>
 
 </manifest>
