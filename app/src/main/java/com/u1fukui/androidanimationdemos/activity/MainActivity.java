@@ -15,6 +15,7 @@ import com.u1fukui.androidanimationdemos.activity.propertyanim.LayoutTransitionA
 import com.u1fukui.androidanimationdemos.activity.propertyanim.ObjectAnimatorActivity;
 import com.u1fukui.androidanimationdemos.activity.propertyanim.ValueAnimatorActivity;
 import com.u1fukui.androidanimationdemos.activity.propertyanim.ViewPropertyAnimatorActivity;
+import com.u1fukui.androidanimationdemos.activity.transition.ActivityTransitionTrainingActivity;
 import com.u1fukui.androidanimationdemos.activity.transition.FragmentTransitionActivity;
 import com.u1fukui.androidanimationdemos.activity.viewanim.AllViewAnimationActivity;
 import com.u1fukui.androidanimationdemos.activity.viewanim.AnimationSetActivity;
@@ -49,6 +50,7 @@ public class MainActivity extends ActionBarActivity
         itemList.add(new DemoItem(InterpolatorActivity.class, "Interpolator"));
         itemList.add(new DemoItem(ViewPropertyAnimatorActivity.class, "ViewPropertyAnimator"));
         itemList.add(new DemoItem(LayoutTransitionActivity.class, "LayoutTransition"));
+        itemList.add(new DemoItem(ActivityTransitionTrainingActivity.class, "ActivityTransition"));
         itemList.add(new DemoItem(FragmentTransitionActivity.class, "FragmentTransition"));
         return new DemoItemListAdapter(this, itemList);
     }
