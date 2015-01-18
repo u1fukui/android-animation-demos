@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/transition_center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <View
+        android:id="@+id/transition_view1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/transition_center"
+        android:layout_alignLeft="@id/transition_center"
+        android:layout_marginLeft="-50dp"
+        android:background="#ff0000" />
+
+    <View
+        android:id="@+id/activity_transition_view2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@id/transition_view1"
+        android:layout_below="@id/transition_view1"
+        android:layout_marginLeft="-50dp"
+        android:background="#00ff00" />
+
+    <View
+        android:id="@+id/activity_transition_view3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@id/transition_view1"
+        android:layout_below="@id/transition_view1"
+        android:layout_marginLeft="50dp"
+        android:background="#0000ff" />
+
+</RelativeLayout>

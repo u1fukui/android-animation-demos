@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/transition_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Execute" />
+
+    <LinearLayout
+        android:id="@+id/transition_exit_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/transition_button"
+        android:layout_alignLeft="@id/transition_button"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"/>
+
+        <Spinner
+            android:id="@+id/transition_spinner_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:entries="@array/transition_type" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/transition_exit_group"
+        android:layout_alignLeft="@id/transition_exit_group"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter"/>
+
+        <Spinner
+            android:id="@+id/transition_spinner_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:entries="@array/transition_type" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/transition_center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <View
+        android:id="@+id/transition_view1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/transition_center"
+        android:layout_alignLeft="@id/transition_center"
+        android:layout_marginLeft="-50dp"
+        android:background="#ff0000" />
+
+    <View
+        android:id="@+id/transition_view2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@id/transition_view1"
+        android:layout_below="@id/transition_view1"
+        android:layout_marginLeft="-50dp"
+        android:background="#00ff00" />
+
+    <View
+        android:id="@+id/transition_view3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@id/transition_view1"
+        android:layout_below="@id/transition_view1"
+        android:layout_marginLeft="50dp"
+        android:background="#0000ff" />
+
+</RelativeLayout>
