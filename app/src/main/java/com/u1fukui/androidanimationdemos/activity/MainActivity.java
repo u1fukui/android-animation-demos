@@ -17,6 +17,7 @@ import com.u1fukui.androidanimationdemos.activity.propertyanim.ValueAnimatorActi
 import com.u1fukui.androidanimationdemos.activity.propertyanim.ViewPropertyAnimatorActivity;
 import com.u1fukui.androidanimationdemos.activity.transition.ActivityTransitionActivity;
 import com.u1fukui.androidanimationdemos.activity.transition.FragmentTransitionActivity;
+import com.u1fukui.androidanimationdemos.activity.transition.SharedElementActivity;
 import com.u1fukui.androidanimationdemos.activity.viewanim.AllViewAnimationActivity;
 import com.u1fukui.androidanimationdemos.activity.viewanim.AnimationSetActivity;
 import com.u1fukui.androidanimationdemos.activity.viewanim.RotateAnimationActivity;
@@ -51,6 +52,7 @@ public class MainActivity extends ActionBarActivity
         itemList.add(new DemoItem(ViewPropertyAnimatorActivity.class, "ViewPropertyAnimator"));
         itemList.add(new DemoItem(LayoutTransitionActivity.class, "LayoutTransition"));
         itemList.add(new DemoItem(ActivityTransitionActivity.class, "ActivityTransition"));
+        itemList.add(new DemoItem(SharedElementActivity.class, "ActivityTransition shared element"));
         itemList.add(new DemoItem(FragmentTransitionActivity.class, "FragmentTransition"));
         return new DemoItemListAdapter(this, itemList);
     }
