@@ -11,7 +11,7 @@
         android:layout_margin="20dp"
         android:text="Execute" />
 
-    <com.u1fukui.androidanimationdemos.view.BgColorView
+    <com.u1fukui.androiddemos.view.BgColorView
         android:id="@+id/objectanim_bgcolor_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

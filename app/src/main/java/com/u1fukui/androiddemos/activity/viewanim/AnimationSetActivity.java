@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationdemos.activity.viewanim;
+package com.u1fukui.androiddemos.activity.viewanim;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -8,7 +8,7 @@ import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 
-import com.u1fukui.androidanimationdemos.R;
+import com.u1fukui.androiddemos.R;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationdemos.activity;
+package com.u1fukui.androiddemos.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,22 +7,22 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.u1fukui.androidanimationdemos.DemoItem;
-import com.u1fukui.androidanimationdemos.DemoItemListAdapter;
-import com.u1fukui.androidanimationdemos.R;
-import com.u1fukui.androidanimationdemos.activity.propertyanim.InterpolatorActivity;
-import com.u1fukui.androidanimationdemos.activity.propertyanim.LayoutTransitionActivity;
-import com.u1fukui.androidanimationdemos.activity.propertyanim.ObjectAnimatorActivity;
-import com.u1fukui.androidanimationdemos.activity.propertyanim.ValueAnimatorActivity;
-import com.u1fukui.androidanimationdemos.activity.propertyanim.ViewPropertyAnimatorActivity;
-import com.u1fukui.androidanimationdemos.activity.transition.ActivityTransitionActivity;
-import com.u1fukui.androidanimationdemos.activity.transition.FragmentTransitionActivity;
-import com.u1fukui.androidanimationdemos.activity.transition.SharedElementActivity;
-import com.u1fukui.androidanimationdemos.activity.viewanim.AllViewAnimationActivity;
-import com.u1fukui.androidanimationdemos.activity.viewanim.AnimationSetActivity;
-import com.u1fukui.androidanimationdemos.activity.viewanim.RotateAnimationActivity;
-import com.u1fukui.androidanimationdemos.activity.viewanim.TransitionAnimationFirstActivity;
-import com.u1fukui.androidanimationdemos.activity.viewanim.TranslateAnimationActivity;
+import com.u1fukui.androiddemos.DemoItem;
+import com.u1fukui.androiddemos.DemoItemListAdapter;
+import com.u1fukui.androiddemos.R;
+import com.u1fukui.androiddemos.activity.propertyanim.InterpolatorActivity;
+import com.u1fukui.androiddemos.activity.propertyanim.LayoutTransitionActivity;
+import com.u1fukui.androiddemos.activity.propertyanim.ObjectAnimatorActivity;
+import com.u1fukui.androiddemos.activity.propertyanim.ValueAnimatorActivity;
+import com.u1fukui.androiddemos.activity.propertyanim.ViewPropertyAnimatorActivity;
+import com.u1fukui.androiddemos.activity.transition.ActivityTransitionActivity;
+import com.u1fukui.androiddemos.activity.transition.FragmentTransitionActivity;
+import com.u1fukui.androiddemos.activity.transition.SharedElementActivity;
+import com.u1fukui.androiddemos.activity.viewanim.AllViewAnimationActivity;
+import com.u1fukui.androiddemos.activity.viewanim.AnimationSetActivity;
+import com.u1fukui.androiddemos.activity.viewanim.RotateAnimationActivity;
+import com.u1fukui.androiddemos.activity.viewanim.TransitionAnimationFirstActivity;
+import com.u1fukui.androiddemos.activity.viewanim.TranslateAnimationActivity;
 
 import java.util.ArrayList;
 

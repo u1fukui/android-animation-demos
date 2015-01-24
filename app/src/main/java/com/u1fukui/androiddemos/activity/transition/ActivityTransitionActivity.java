@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationdemos.activity.transition;
+package com.u1fukui.androiddemos.activity.transition;
 
 import android.app.ActivityOptions;
 import android.content.Intent;
@@ -12,7 +12,7 @@ import android.transition.Transition;
 import android.view.Gravity;
 import android.widget.Spinner;
 
-import com.u1fukui.androidanimationdemos.R;
+import com.u1fukui.androiddemos.R;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationdemos.activity.transition;
+package com.u1fukui.androiddemos.activity.transition;
 
 import android.app.Fragment;
 import android.os.Build;
@@ -7,7 +7,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.transition.Slide;
 import android.view.Window;
 
-import com.u1fukui.androidanimationdemos.R;
+import com.u1fukui.androiddemos.R;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;

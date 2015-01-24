@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.u1fukui.androidanimationsamples"
+        applicationId "com.u1fukui.androiddemos"
         minSdkVersion 15
         targetSdkVersion 21
         versionCode 1

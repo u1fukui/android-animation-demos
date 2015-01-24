@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationdemos.view;
+package com.u1fukui.androiddemos.view;
 
 import android.content.Context;
 import android.graphics.Color;

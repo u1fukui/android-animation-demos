@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationdemos.activity.propertyanim;
+package com.u1fukui.androiddemos.activity.propertyanim;
 
 import android.animation.LayoutTransition;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.u1fukui.androidanimationdemos.R;
+import com.u1fukui.androiddemos.R;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

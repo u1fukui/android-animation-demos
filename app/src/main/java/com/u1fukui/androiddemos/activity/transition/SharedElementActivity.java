@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationdemos.activity.transition;
+package com.u1fukui.androiddemos.activity.transition;
 
 import android.app.ActivityOptions;
 import android.content.Intent;
@@ -9,7 +9,7 @@ import android.util.Pair;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.u1fukui.androidanimationdemos.R;
+import com.u1fukui.androiddemos.R;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

@@ -1,4 +1,4 @@
-package com.u1fukui.androidanimationdemos.activity.propertyanim;
+package com.u1fukui.androiddemos.activity.propertyanim;
 
 import android.animation.ObjectAnimator;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ import android.view.animation.OvershootInterpolator;
 import android.widget.ImageView;
 import android.widget.Spinner;
 
-import com.u1fukui.androidanimationdemos.R;
+import com.u1fukui.androiddemos.R;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

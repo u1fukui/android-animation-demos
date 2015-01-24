@@ -1,9 +1,9 @@
-package com.u1fukui.androidanimationdemos.activity.transition;
+package com.u1fukui.androiddemos.activity.transition;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 
-import com.u1fukui.androidanimationdemos.R;
+import com.u1fukui.androiddemos.R;
 
 import butterknife.ButterKnife;
 

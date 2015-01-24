@@ -1,10 +1,10 @@
-package com.u1fukui.androidanimationdemos.activity.viewanim;
+package com.u1fukui.androiddemos.activity.viewanim;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 
-import com.u1fukui.androidanimationdemos.R;
+import com.u1fukui.androiddemos.R;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;

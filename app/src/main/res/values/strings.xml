@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidAnimationDemos</string>
+    <string name="app_name">AndroidDemos</string>
     <string name="shared_photo1">photo1</string>
     <string name="shared_photo2">photo2</string>
 </resources>
