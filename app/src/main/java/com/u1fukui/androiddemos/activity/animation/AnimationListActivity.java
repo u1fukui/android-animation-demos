@@ -1,15 +1,8 @@
 package com.u1fukui.androiddemos.activity.animation;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ListView;
-
 import com.u1fukui.androiddemos.DemoItem;
 import com.u1fukui.androiddemos.DemoItemListAdapter;
-import com.u1fukui.androiddemos.R;
+import com.u1fukui.androiddemos.activity.BaseListActivity;
 import com.u1fukui.androiddemos.activity.animation.propertyanim.InterpolatorActivity;
 import com.u1fukui.androiddemos.activity.animation.propertyanim.LayoutTransitionActivity;
 import com.u1fukui.androiddemos.activity.animation.propertyanim.ObjectAnimatorActivity;
@@ -26,20 +19,10 @@ import com.u1fukui.androiddemos.activity.animation.viewanim.TranslateAnimationAc
 
 import java.util.ArrayList;
 
-public class AnimationListActivity extends ActionBarActivity
-        implements AdapterView.OnItemClickListener {
+public class AnimationListActivity extends BaseListActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list);
-
-        ListView listView = (ListView) findViewById(R.id.list);
-        listView.setAdapter(createListAdapter());
-        listView.setOnItemClickListener(this);
-    }
-
-    private DemoItemListAdapter createListAdapter() {
+    protected DemoItemListAdapter createListAdapter() {
         ArrayList<DemoItem> itemList = new ArrayList<DemoItem>();
         itemList.add(new DemoItem(AllViewAnimationActivity.class, "AlphaAnimation"));
         itemList.add(new DemoItem(RotateAnimationActivity.class, "RotateAnimation"));
@@ -55,14 +38,5 @@ public class AnimationListActivity extends ActionBarActivity
         itemList.add(new DemoItem(SharedElementActivity.class, "ActivityTransition shared element"));
         itemList.add(new DemoItem(FragmentTransitionActivity.class, "FragmentTransition"));
         return new DemoItemListAdapter(this, itemList);
-    }
-
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        DemoItem item = (DemoItem) parent.getItemAtPosition(position);
-        if (item != null) {
-            Intent intent = new Intent(this, item.getActivityClass());
-            startActivity(intent);
-        }
     }
 }
