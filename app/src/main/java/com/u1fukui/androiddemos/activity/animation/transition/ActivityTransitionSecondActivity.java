@@ -1,4 +1,4 @@
-package com.u1fukui.androiddemos.activity.transition;
+package com.u1fukui.androiddemos.activity.animation.transition;
 
 import android.os.Build;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.u1fukui.androiddemos.activity.propertyanim;
+package com.u1fukui.androiddemos.activity.animation.propertyanim;
 
 import android.animation.LayoutTransition;
 import android.os.Bundle;

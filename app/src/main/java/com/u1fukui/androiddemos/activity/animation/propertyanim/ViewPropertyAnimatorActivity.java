@@ -1,4 +1,4 @@
-package com.u1fukui.androiddemos.activity.propertyanim;
+package com.u1fukui.androiddemos.activity.animation.propertyanim;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;

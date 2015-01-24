@@ -1,4 +1,4 @@
-package com.u1fukui.androiddemos.activity.viewanim;
+package com.u1fukui.androiddemos.activity.animation.viewanim;
 
 import android.content.Intent;
 import android.os.Bundle;

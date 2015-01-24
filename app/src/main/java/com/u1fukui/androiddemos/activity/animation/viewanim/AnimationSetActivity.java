@@ -1,4 +1,4 @@
-package com.u1fukui.androiddemos.activity.viewanim;
+package com.u1fukui.androiddemos.activity.animation.viewanim;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;

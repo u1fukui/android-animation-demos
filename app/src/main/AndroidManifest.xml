@@ -16,22 +16,23 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.viewanim.AllViewAnimationActivity" />
-        <activity android:name=".activity.viewanim.RotateAnimationActivity" />
-        <activity android:name=".activity.viewanim.AnimationSetActivity" />
-        <activity android:name=".activity.viewanim.TransitionAnimationFirstActivity" />
-        <activity android:name=".activity.viewanim.TransitionAnimationSecondActivity" />
-        <activity android:name=".activity.viewanim.TranslateAnimationActivity" />
-        <activity android:name=".activity.propertyanim.ValueAnimatorActivity" />
-        <activity android:name=".activity.propertyanim.ObjectAnimatorActivity" />
-        <activity android:name=".activity.propertyanim.InterpolatorActivity" />
-        <activity android:name=".activity.propertyanim.ViewPropertyAnimatorActivity" />
-        <activity android:name=".activity.propertyanim.LayoutTransitionActivity" />
-        <activity android:name=".activity.transition.ActivityTransitionActivity" />
-        <activity android:name=".activity.transition.ActivityTransitionSecondActivity" />
-        <activity android:name=".activity.transition.SharedElementActivity" />
-        <activity android:name=".activity.transition.SharedElementSecondActivity" />
-        <activity android:name=".activity.transition.FragmentTransitionActivity" />
+        <activity android:name=".activity.animation.AnimationListActivity" />
+        <activity android:name=".activity.animation.viewanim.AllViewAnimationActivity" />
+        <activity android:name=".activity.animation.viewanim.RotateAnimationActivity" />
+        <activity android:name=".activity.animation.viewanim.AnimationSetActivity" />
+        <activity android:name=".activity.animation.viewanim.TransitionAnimationFirstActivity" />
+        <activity android:name=".activity.animation.viewanim.TransitionAnimationSecondActivity" />
+        <activity android:name=".activity.animation.viewanim.TranslateAnimationActivity" />
+        <activity android:name=".activity.animation.propertyanim.ValueAnimatorActivity" />
+        <activity android:name=".activity.animation.propertyanim.ObjectAnimatorActivity" />
+        <activity android:name=".activity.animation.propertyanim.InterpolatorActivity" />
+        <activity android:name=".activity.animation.propertyanim.ViewPropertyAnimatorActivity" />
+        <activity android:name=".activity.animation.propertyanim.LayoutTransitionActivity" />
+        <activity android:name=".activity.animation.transition.ActivityTransitionActivity" />
+        <activity android:name=".activity.animation.transition.ActivityTransitionSecondActivity" />
+        <activity android:name=".activity.animation.transition.SharedElementActivity" />
+        <activity android:name=".activity.animation.transition.SharedElementSecondActivity" />
+        <activity android:name=".activity.animation.transition.FragmentTransitionActivity" />
     </application>
 
 </manifest>
