@@ -7,14 +7,14 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
 
-        <activity
-            android:name=".activity.MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <!-- Animation -->
         <activity android:name=".activity.animation.AnimationListActivity" />
         <activity android:name=".activity.animation.viewanim.AllViewAnimationActivity" />
         <activity android:name=".activity.animation.viewanim.RotateAnimationActivity" />
@@ -32,6 +32,10 @@
         <activity android:name=".activity.animation.transition.SharedElementActivity" />
         <activity android:name=".activity.animation.transition.SharedElementSecondActivity" />
         <activity android:name=".activity.animation.transition.FragmentTransitionActivity" />
+
+        <!-- UI -->
+        <activity android:name=".activity.ui.UiListActivity" />
+        <activity android:name=".activity.ui.SlidingTabActivity" />
     </application>
 
 </manifest>
