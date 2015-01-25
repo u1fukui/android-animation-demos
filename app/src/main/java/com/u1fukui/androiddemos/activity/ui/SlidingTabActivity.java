@@ -30,6 +30,7 @@ public class SlidingTabActivity extends ActionBarActivity {
         ButterKnife.inject(this);
 
         mViewPager.setAdapter(new SamplePagerAdapter(this));
+        mSlidingTabLayout.setCustomTabView(R.layout.view_sliding_tab_item, R.id.sliding_tab_item_title);
         mSlidingTabLayout.setViewPager(mViewPager);
     }
 
@@ -59,11 +60,11 @@ public class SlidingTabActivity extends ActionBarActivity {
 
         @Override
         public Object instantiateItem(ViewGroup container, int position) {
-            View view = mActivity.getLayoutInflater().inflate(R.layout.view_sliding_tab_item,
+            View view = mActivity.getLayoutInflater().inflate(R.layout.view_sliding_tab_content_item,
                     container, false);
             container.addView(view);
 
-            TextView title = (TextView) view.findViewById(R.id.sliding_tab_item_title);
+            TextView title = (TextView) view.findViewById(R.id.sliding_tab_content_title);
             title.setText(String.valueOf(position + 1));
 
             return view;

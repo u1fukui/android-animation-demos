@@ -3,18 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical"
-    android:padding="20dp">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/abc_ic_search_api_mtrl_alpha" />
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/sliding_tab_item_title"
+        android:id="@+id/sliding_tab_content_subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp" />
+        android:text="Page:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/sliding_tab_content_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp" />
 
 </LinearLayout>
