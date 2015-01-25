@@ -15,7 +15,7 @@ import com.u1fukui.androiddemos.view.SlidingTabLayout;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
-public class SlidingTabActivity extends ActionBarActivity {
+public class SlidingTabLayoutActivity extends ActionBarActivity {
 
     @InjectView(R.id.sliding_tabs)
     SlidingTabLayout mSlidingTabLayout;

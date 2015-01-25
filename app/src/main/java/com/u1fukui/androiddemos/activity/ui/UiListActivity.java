@@ -11,7 +11,7 @@ public class UiListActivity extends BaseListActivity {
     @Override
     protected DemoItemListAdapter createListAdapter() {
         ArrayList<DemoItem> itemList = new ArrayList<DemoItem>();
-        itemList.add(new DemoItem(SlidingTabActivity.class, "SlidingTab"));
+        itemList.add(new DemoItem(SlidingTabLayoutActivity.class, "SlidingTabLayout"));
         return new DemoItemListAdapter(this, itemList);
     }
 }
