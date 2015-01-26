@@ -36,6 +36,7 @@
         <!-- UI -->
         <activity android:name=".activity.ui.UiListActivity" />
         <activity android:name=".activity.ui.tab.SlidingTabLayoutActivity" />
+        <activity android:name=".activity.ui.tab.PagerTabStripActivity" />
     </application>
 
 </manifest>
