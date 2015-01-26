@@ -35,7 +35,7 @@
 
         <!-- UI -->
         <activity android:name=".activity.ui.UiListActivity" />
-        <activity android:name=".activity.ui.SlidingTabLayoutActivity" />
+        <activity android:name=".activity.ui.tab.SlidingTabLayoutActivity" />
     </application>
 
 </manifest>

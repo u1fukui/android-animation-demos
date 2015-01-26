@@ -3,6 +3,7 @@ package com.u1fukui.androiddemos.activity.ui;
 import com.u1fukui.androiddemos.DemoItem;
 import com.u1fukui.androiddemos.DemoItemListAdapter;
 import com.u1fukui.androiddemos.activity.BaseListActivity;
+import com.u1fukui.androiddemos.activity.ui.tab.SlidingTabLayoutActivity;
 
 import java.util.ArrayList;
 
