@@ -10,7 +10,7 @@ import com.u1fukui.androiddemos.R;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
-public class NoFullscreenKeyboardActivity extends ActionBarActivity {
+public class NoFullscreenRelativeLayoutActivity extends ActionBarActivity {
 
     private static final String[] strings = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
             "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"};
@@ -21,7 +21,7 @@ public class NoFullscreenKeyboardActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_edit_text_adjust_resize);
+        setContentView(R.layout.activity_list_edit_text_relative);
         ButterKnife.inject(this);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
