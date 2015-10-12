@@ -1,14 +1,12 @@
-package com.u1fukui.androiddemos.activity.ui;
+package com.u1fukui.androiddemos.activity.ui.tab;
 
 import com.u1fukui.androiddemos.DemoItem;
 import com.u1fukui.androiddemos.DemoItemListAdapter;
 import com.u1fukui.androiddemos.activity.BaseListActivity;
-import com.u1fukui.androiddemos.activity.ui.tab.PagerTabStripActivity;
-import com.u1fukui.androiddemos.activity.ui.tab.SlidingTabLayoutActivity;
 
 import java.util.ArrayList;
 
-public class UiListActivity extends BaseListActivity {
+public class TabListActivity extends BaseListActivity {
 
     @Override
     protected DemoItemListAdapter createListAdapter() {

@@ -34,9 +34,13 @@
         <activity android:name=".activity.animation.transition.FragmentTransitionActivity" />
 
         <!-- UI -->
-        <activity android:name=".activity.ui.UiListActivity" />
+        <activity android:name=".activity.ui.tab.TabListActivity" />
         <activity android:name=".activity.ui.tab.SlidingTabLayoutActivity" />
         <activity android:name=".activity.ui.tab.PagerTabStripActivity" />
+
+        <!-- Keyboard -->
+        <activity android:name=".activity.ui.keyboard.KeyboardListActivity" />
+        <activity android:name=".activity.ui.keyboard.DefaultKeyboardActivity" />
     </application>
 
 </manifest>
