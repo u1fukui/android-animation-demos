@@ -41,6 +41,7 @@
         <!-- Keyboard -->
         <activity android:name=".activity.ui.keyboard.KeyboardListActivity" />
         <activity android:name=".activity.ui.keyboard.DefaultKeyboardActivity" />
+        <activity android:name=".activity.ui.keyboard.NoFullscreenKeyboardActivity" />
     </application>
 
 </manifest>

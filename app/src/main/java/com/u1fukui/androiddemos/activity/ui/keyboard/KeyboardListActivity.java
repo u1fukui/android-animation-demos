@@ -12,6 +12,7 @@ public class KeyboardListActivity extends BaseListActivity {
     protected DemoItemListAdapter createListAdapter() {
         ArrayList<DemoItem> itemList = new ArrayList<DemoItem>();
         itemList.add(new DemoItem(DefaultKeyboardActivity.class, "Default"));
+        itemList.add(new DemoItem(NoFullscreenKeyboardActivity.class, "android:imeOptions=\"flagNoFullscreen\""));
         return new DemoItemListAdapter(this, itemList);
     }
 }
