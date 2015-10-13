@@ -14,6 +14,7 @@ public class KeyboardListActivity extends BaseListActivity {
         itemList.add(new DemoItem(DefaultKeyboardActivity.class, "Default"));
         itemList.add(new DemoItem(NoFullscreenActivity.class, "android:imeOptions=\"flagNoFullscreen\""));
         itemList.add(new DemoItem(NoFullscreenRelativeLayoutActivity.class, "RelativeLayout"));
+        itemList.add(new DemoItem(NoFullscreenFragmentActivity.class, "Fragment"));
         return new DemoItemListAdapter(this, itemList);
     }
 }
