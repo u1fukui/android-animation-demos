@@ -21,7 +21,7 @@ public class NoFullscreenActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_edit_text_adjust_resize);
+        setContentView(R.layout.activity_list_edit_text_no_fullscreen);
         ButterKnife.inject(this);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
